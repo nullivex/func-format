@@ -2,7 +2,7 @@
 	 "name":				"openlss/func-format"
 	,"homepage":			"http://openlss.org"
 	,"description":			"Display formatting functions"
-	,"license":				"LGPLv2"
+	,"license":				"LGPL-3.0+"
 	,"type":				"library"
 	,"keywords": [
 		 "format"
