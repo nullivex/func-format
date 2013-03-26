@@ -17,8 +17,7 @@
  *	You should have received a copy of the 
  *	GNU Lesser General Public License along with OpenLSS.
  *	If not, see <http://www.gnu.org/licenses/>.
-*/
-namespace LSS;
+ */
 
 function format_bytes($val,$force=null,$suf='B'){
 	if($force == 'p' || (!$force && $val > 10000000000000000)){ //pb
