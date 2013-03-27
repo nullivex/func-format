@@ -5,8 +5,6 @@ Usage
 ----
 
 ```php
-ld('func/format');
-
 //Format bytes into an arbitrary divisor
 echo format_bytes(1048576); //1MB
 
