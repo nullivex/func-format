@@ -22,13 +22,13 @@
 function format_bytes($val,$force=null,$suf='B'){
 	if($force == 'p' || (!$force && $val > 10000000000000000)){ //pb
 		$fmt = 'P';
-		$val = round($val / 10000000000000000);
+		$val = round($val / 1000000000000000);
 	} elseif($force == 't' || (!$force && $val > 10000000000000)){ //tb
 		$fmt = 'T';
-		$val = round($val / 10000000000000);
+		$val = round($val / 1000000000000);
 	} elseif($force == 'g' || (!$force && $val > 10000000000)){ //gb
 		$fmt = 'G';
-		$val = round($val / 10000000000);
+		$val = round($val / 1000000000);
 	} elseif($force == 'm' || (!$force && $val > 10000000)){ //mb
 		$fmt = 'M';
 		$val = round($val / 1000000);
